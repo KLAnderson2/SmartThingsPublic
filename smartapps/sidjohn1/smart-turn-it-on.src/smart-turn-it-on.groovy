@@ -27,7 +27,7 @@ preferences {
 		input "dayOne", "enum", title:"Select Days", required: true, multiple:true, metadata: [values: ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']]
 	}
 	section("At what time?") {
-		input name: "timeOne", title: "Select Time", type: "time", required: true
+		input name: "timeOne", title: "Select Time", type: "time", required: false
 	}
 	section("For how long?") {
 		input name: "timeTwo", title: "Number of minutes", type: "number", required: true
